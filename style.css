@@ -1,8 +1,8 @@
 /* style.css */
 body {
     font-family: 'Fira Mono', monospace;
-    color: #333;
-    background-color: #fff;
+    color: #ffffff; /* Set text color to white for better readability on dark background */
+    background-color: #1a1a1a; /* Space-gray background */
     margin: 0;
     padding: 0;
     font-size: 16px;
@@ -39,13 +39,13 @@ a:hover {
 }
 
 h1, h2 {
-    color: #d10000; /* Red color for headers */
+    color: #d10000; /* Red color for headers to maintain the style */
 }
 
 footer {
-    background-color: #f2f2f2;
-    color: #333;
-    border-top: 1px solid #ccc;
+    background-color: #2c2c2c; /* Darker shade for the footer for distinction */
+    color: #ccc; /* Lighter gray text for contrast */
+    border-top: 1px solid #444; /* Border to separate footer from content */
     padding: 10px 0;
 }
 
