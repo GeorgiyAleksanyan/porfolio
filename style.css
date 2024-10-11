@@ -1,0 +1,58 @@
+/* style.css */
+body {
+    font-family: 'Fira Mono', monospace;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+header, section, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 75px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d10000; /* Red color for links */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    color: #d10000; /* Red color for headers */
+}
+
+footer {
+    background-color: #f2f2f2;
+    color: #333;
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+iframe {
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    display: block;
+}
